@@ -1,0 +1,151 @@
+.fancy {
+    padding: 1em;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: #e4e4d9;
+    background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 90%, #b4b07f 90%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 92%, #b4b07f 92%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 85%, #c5a68e 85%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 89%, #c5a68e 89%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 80%, #ba9499 80%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 86%, #ba9499 86%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 75%, #9f8fa4 75%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 83%, #9f8fa4 83%),
+                    linear-gradient(175deg, rgba(0,0,0,0) 70%, #74a6ae 70%),
+                    linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
+}
+
+ 
+
+.fancy2 {
+    padding: 1em;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background:
+    radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+    background-color: slategray;
+    background-size:75px 100px;
+}
+
+.fancy3 {
+    padding: 1em;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background: linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+background-size: 110px 200px;
+background-repeat: repeat-x;
+}
+
+.fancy4 {
+    padding: 1em;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: #fff;
+background-image:
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
+}
+
+.fancy5 {
+    padding: 1em;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color:#269;
+background-image: linear-gradient(white 2px, transparent 2px),
+linear-gradient(90deg, white 2px, transparent 2px),
+linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.fancy6 {
+    padding: 1em;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background:
+radial-gradient(circle at 50% 59%, #D2CAAB 3%, #000000 4%, #000000 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 50px 0,
+radial-gradient(circle at 50% 41%, #000000 3%, #D2CAAB 4%, #D2CAAB 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 50px 0,
+radial-gradient(circle at 50% 59%, #D2CAAB 3%, #000000 4%, #000000 11%, rgba(54,78,39,0) 12%, rgba(54,78,39,0)) 0 50px,
+radial-gradient(circle at 50% 41%, #000000 3%, #D2CAAB 4%, #D2CAAB 11%, rgba(210,202,171,0) 12%, rgba(210,202,171,0)) 0 50px,
+radial-gradient(circle at 100% 50%, #D2CAAB 16%, rgba(210,202,171,0) 17%),
+radial-gradient(circle at 0% 50%, #000000 16%, rgba(54,78,39,0) 17%),
+radial-gradient(circle at 100% 50%, #D2CAAB 16%, rgba(210,202,171,0) 17%) 50px 50px,
+radial-gradient(circle at 0% 50%, #000000 16%, rgba(54,78,39,0) 17%) 50px 50px;
+background-color:#FF0000;
+background-size:100px 100px;
+}
+.fancy7 {
+    padding: 1em;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-image: url('https://pulse.berklee.edu/content/tools/blank_sheet_music/no_clef.jpg');
+}
+
+.fancy8 {
+    padding: 1em;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    background-color:silver;
+background-image:
+radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
+radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+background-size: 100px 50px;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
